@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    z-index: 1;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    height: 40px !important;
+    background-color: rgba(0, 0, 0, 0.735);
+}
+
+ul{
+    padding: 5px;
+    display: flex;
+    list-style: none;
+    justify-content: center ;
+    align-items: center !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    justify-content: space-around;
+    font-size:large;
+    margin: 0% 6%;
+}
+.page1{
+    margin-top: 0%;
+    background-image: url(hero_startframe__dbi4flqyio2u_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.page1items{
+    padding: 2%  0%;
+    /* height: 100%; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.text1{
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text1 button{
+border: none;
+margin-top: 10%;
+width: 130px;
+padding: 7%;
+border-radius: 20px;
+}
+.page2{
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/apple-vision-pro/hero_apple_vision_pro_avail__ecthwv10twsy_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.page2items{
+    height: 95%;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.div2 a{
+    /* display: flex !important;
+    justify-content: space-between !important; */
+margin:0px 10px;
+}
+.anc{
+text-decoration:none !important;
+font-size: large;
+}
+.anc:hover{
+    text-decoration: underline !important;
+}
+.card1{
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/apple-fitness-plus-usher/promo_fitness_usher__brgf1f57usc2_large_2x.jpg');
+    width: 100% !important;
+    height: 500px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* display:flex !important;
+    justify-content:center !important; */
+}
+.card2{
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/iphone-15-pro/promo_iphone15pro__e48p7n5x3nsm_large_2x.jpg');
+    width: 100% !important;
+    height: 500px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* display:flex !important;
+    justify-content:center !important; */
+}
+.card3{
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/iphone-15/promo_iphone15_announce__fmxxi8r9fkuy_large_2x.jpg');
+    width: 100% !important;
+    height: 500px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    /* display:flex !important;
+    justify-content:center !important; */
+}
+.card4{
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg');
+    width: 100% !important;
+    height: 500px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* display:flex !important;
+    justify-content:center !important; */
+}
+.card4 h5{
+    color: red;
+    letter-spacing: 10px !important;
+    font-size: small;
+}
+.card5{
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/apple-fitness-plus-usher/promo_fitness_usher__brgf1f57usc2_large_2x.jpg');
+    width: 100% !important;
+    height: 500px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* display:flex !important;
+    justify-content:center !important; */
+}
+.card5 a{
+    color: white ;
+}
+.card6{
+    background-image: url('https://www.apple.com/v/home/bk/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large_2x.jpg');
+    width: 100% !important;
+    height: 500px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    /* display:flex !important;
+    justify-content:flex-end !important; */
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#carouselExampleSlidesOnly img{
+width: 100% !important;
+height: 100% !important;
+}
